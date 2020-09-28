@@ -10,19 +10,19 @@ export default function Frame7() {
     <Text style= {styles.title}>Eleições em {"\n"} localização </Text>
     </View> 
     <Text style= {styles.texto}> Resultados: </Text>
-    <Text style= {styles.texto}> Vote em um candidato à prefeito: </Text>
+    <Text style= {styles.texto}>Escolhido como prefeito com x votos: </Text>
     <View style= {styles.row}>
-        <Image style={styles.person} source={require('../../assets/perfils/empresario x2/empresario.png')} />
+        <Image style={styles.person} source={require('../../assets/perfils/empresariox2/empresario.png')} />
       </View>
       <Text style= {styles.self2}>Joao </Text>
-      <Text style= {styles.texto}> Vote em um candidato à vereador: </Text>
+      <Text style= {styles.texto}>Escolhido como vereador com x votos: </Text>
            <View style= {styles.row}>
-        <Image style={styles.person} source={require('../../assets/perfils/empresario x2/empresario.png')} />
+        <Image style={styles.person} source={require('../../assets/perfils/empresariox2/empresario.png')} />
       </View>
        <Text style= {styles.self2}>Joao </Text>
-      <Text style= {styles.texto}> Vote em um candidato à fiscal: </Text>
+      <Text style= {styles.texto}>Escolhido como fiscal com x votos: </Text>
           <View style= {styles.row}>
-        <Image style={styles.person} source={require('../../assets/perfils/empresario x2/empresario.png')} />
+        <Image style={styles.person} source={require('../../assets/perfils/empresariox2/empresario.png')} />
       </View>
        <Text style= {styles.self2}>Joao </Text>
       <Comecar/>
